@@ -37,51 +37,52 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'url',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
-
-ROOT_URLCONF = 'url_shortener.urls'
-
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-
-WSGI_APPLICATION = 'url_shortener.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-
-# Password validation
+j bvmango.middleware.common.CommonMiddleware',
+j bvmango.middleware.csrf.CsrfViewMiddleware',
+j bvmango.contrib.auth.middleware.AuthenticationMiddleware',
+j bvmango.contrib.messages.middleware.MessageMiddleware',
+j bvmango.middleware.clickjacking.XFrameOptionsMiddleware',
+j bvm
+j bvm
+j bvmLCONF = 'url_shortener.urls'
+j bvm
+j bvmES = [
+j bvm
+j bvm 'BACKEND': 'django.template.backends.django.DjangoTemplates',
+j bvm 'DIRS': [],
+j bvm 'APP_DIRS': True,
+j bvm 'OPTIONS': {
+j bvm     'context_processors': [
+j bvm         'django.template.context_processors.debug',
+j bvm         'django.template.context_processors.request',
+j bvm         'django.contrib.auth.context_processors.auth',
+j bvm         'django.contrib.messages.context_processors.messages',
+j bvm     ],
+j bvm },
+j bvm
+j bvm
+j bvm
+j bvmPLICATION = 'url_shortener.wsgi.application'
+j bvm
+j bvm
+j bvmase
+j bvm://docs.djangoproject.com/en/3.1/ref/settings/#databases
+j bvm
+j bvmES = {
+j bvmfault': {
+j bvm 'ENGINE': 'django.db.backends.sqlite3',
+j bvm 'NAME': BASE_DIR / 'db.sqlite3',
+j bvm
+j bvm
+j bvm
+j bvm
+j bvmord validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
